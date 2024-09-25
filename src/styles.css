@@ -1,0 +1,279 @@
+body,
+ul,
+li {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    position: fixed; 
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.rodape {
+    background: rgb(71, 71, 71);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 0px;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    background: rgb(71, 71, 71);
+    display: inline-block;
+    padding: 2px 0px;
+    top: 0px;
+    margin-top: 5px;
+
+}
+
+title,
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+title,
+ul,
+li {
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    background: rgb(71, 71, 71);
+    color: rgb(255, 255, 255);
+    vertical-align: middle;
+}
+
+title,
+ul,
+li,
+a {
+    text-align: center;
+    font-size: 18px;
+    background: rgb(71, 71, 71);
+    color: rgb(255, 255, 255);
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 0px 0px 10px;
+    text-decoration: none;
+}
+
+title,
+ul,
+li,
+a:hover {
+    background-color: #111;
+}
+title,
+h2 {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.bemvindo {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.alerta {
+    padding-left: 30px;
+    font-size: 12px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ff0000;
+    text-align: left;
+}
+
+.menuBotoes {
+    text-align: center;
+}
+
+.modalTitle {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(77, 77, 77);
+    display: inline-block;
+    padding: 0px;
+    position: static;
+    top: 0px;
+    height: 30px;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center; 
+    padding-top: 10px;
+    text-align: center;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+
+.modal {
+    width: 70%;
+    height: 30%;
+    position: inherit;
+    margin-bottom: 25%;
+    padding: 0%;
+    border: #eee;
+    text-align: center;
+}
+
+.newItem {
+    background-color: rgb(225, 222, 199);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.newItem:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#descricao {
+    margin: 0;
+    border: 1px solid rgb(137, 137, 137);
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#tipoDespesa {
+    margin: 0;
+    border: 1px solid rgb(35, 32, 24);
+    width: 20%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#quantidade {
+    margin: 0;
+    border: 1px solid rgb(35, 32, 24);
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#valor {
+    margin: 0;
+    border: 1px solid rgb(35, 32, 24);
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.btnCancelar {
+    padding: 9px 10px;
+    margin-right: 10px;
+    background-color: rgb(71, 71, 71);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btnSalvar {
+    padding: 9px 10px;
+    background-color: rgb(71, 71, 71);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.divBotaoNovo{
+    text-align: center;
+}
+
+.addBtn {
+    padding: 9px 10px; 
+    margin-left: 20px;
+    background-color: rgb(71, 71, 71);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.addBtn:hover {
+    background-color: #2ab53a;
+    color: white;
+}
+
+.btnSalvar:hover {
+    background-color: #2ab53a;
+    color: white;
+}
+
+.btnCancelar:hover {
+    background-color: #ff0000;
+    color: white;
+}
+
+.items {
+    margin: 0;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    position: inherit;
+}
+
+.close:hover {
+    color: #f44336;
+    font-weight: bolder;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    cursor: pointer;
+    position: relative;
+    padding: 8px 6px 8px 6px;
+    font-size: 18px;
+    transition: 0.2s;
+    text-align: start;
+}
+
+table{
+    background-color: rgba(255, 255, 255, 0.895);
+    width: 50%;
+}
+
+tr:nth-child(odd){
+    background-color: #eee;
+}
+
+th:nth-child(1){
+    width: 40%;
+}
+
+tr:hover {
+    background: rgba(253, 253, 253, 0.86);
+}
+

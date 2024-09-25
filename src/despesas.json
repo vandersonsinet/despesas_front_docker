@@ -1,0 +1,34 @@
+{
+    "item": [
+      {
+        "descricao": "Conta de luz Junho",
+        "id_despesa": 1,
+        "quantidade": 1,
+        "tipo_despesa": {
+          "descricao": "Conta de Luz",
+          "id": 1
+        },
+        "valor": 600
+      },
+      {
+        "descricao": "Mes de Junho",
+        "id_despesa": 2,
+        "quantidade": 1,
+        "tipo_despesa": {
+          "descricao": "Aluguel",
+          "id": 3
+        },
+        "valor": 3000
+      },
+      {
+        "descricao": "Mensalidade Junho",
+        "id_despesa": 3,
+        "quantidade": 1,
+        "tipo_despesa": {
+          "descricao": "Escola",
+          "id": 5
+        },
+        "valor": 600
+      }
+    ]
+  }
